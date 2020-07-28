@@ -1,0 +1,54 @@
+<!--
+ * @Date: 2020-07-24 11:15:32
+ * @LastEditors: kjs
+ * @LastEditTime: 2020-07-28 11:00:19
+ * @FilePath: \vue-jsp-template\html\index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- 引入vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+</head>
+
+<body>
+    <div id="app">
+        
+    </div>
+
+    <script>
+        const app = new Vue({
+            el: '#app',//要挂载的dom节点
+
+            data: {//要渲染到模板的数据
+                
+            },
+
+            created() {//实例创建完的生命周期，可以发起网络请求,发送ajax请求然后赋值给data里对应的数据，视图就会自动更新
+                this.initData()
+            },
+
+            mounted() {//实例挂载到页面上的生命周期，可以操作dom节点
+               
+            },
+
+            methods: {//定义函数方法
+                initData(){
+                    
+                },
+              
+             
+            }
+        })
+    </script>
+
+
+</body>
+
+</html>
