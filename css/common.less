@@ -1,4 +1,4 @@
-@mainColor: #11D59C;  
+@mainColor: #00C6B8;  
 
 /*样式重置*/
 body,html{margin:0; font:normal normal normal 14px/20px sans-serif;line-height: 1;}
@@ -141,25 +141,26 @@ a:hover{ text-decoration:none;}
 .row{
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 
 .colum{
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: space-between;
 }
 
 .button{
   width: 75.46%;
   margin: 0 auto;
-  line-height: 0.46rem;
   background-color: @mainColor;
   color: #fff;
   font-size: 0.18rem;
   border-radius: 0.28rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &:active{
       opacity: 0.8;
   }
